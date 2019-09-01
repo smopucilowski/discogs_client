@@ -464,6 +464,7 @@ class Release(PrimaryAPIObject):
     id = SimpleField()
     title = SimpleField()
     year = SimpleField()
+    released = SimpleField()
     thumb = SimpleField()
     data_quality = SimpleField()
     status = SimpleField()
